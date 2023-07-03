@@ -30,6 +30,7 @@ img{
     justify-content: space-between;
     gap: 20px;
     margin-right: 2%;
+    margin-top: 19px;
 }
 
 .nav-1{
@@ -48,4 +49,18 @@ button{
 button:hover{
     background-color: grey;
     color: black;
+}
+.inactive{
+    color: white;
+    text-decoration: none;
+}
+.active{
+    color: greenyellow;
+    text-decoration: none;
+}
+.cart-img{
+    width: 30%;
+}
+.msg{
+    color: green;
 }
