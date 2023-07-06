@@ -47,8 +47,10 @@ button{
 }
 
 button:hover{
-    background-color: grey;
+    background-color: greenyellow;
     color: black;
+    font-weight: bold;
+    font-size: 20px;
 }
 .inactive{
     color: white;
@@ -63,4 +65,51 @@ button:hover{
 }
 .msg{
     color: green;
+}
+.price-flex{
+    display: flex;
+    
+    
+}
+.check-out{
+    background-color: black;
+    width: 53%;
+    padding: 2%;
+    color: whitesmoke;
+    /* position: relative; */
+    border: 2px solid greenyellow;
+}
+.main-checkout{
+    border-bottom: 2px solid greenyellow;
+}
+.checkout-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.cart-div{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid grey;
+    padding: 1%;
+    margin: 2%;
+    width: 23%;
+    
+}
+.checkout-btn{
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+}
+.total-price{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-product-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.checkout-img{
+    width: 100%;
 }
